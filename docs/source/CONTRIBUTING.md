@@ -56,4 +56,3 @@ Here are some rules to apply when developing a new functionality:
 # Merge request acceptation process
 
 The Merge Request will be merged into master after being reviewed by **Bullodzer** steering committee. Only the members of this committee can merge into master.
-
