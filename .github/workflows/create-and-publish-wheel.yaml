@@ -50,7 +50,6 @@ jobs:
     environment: publish
     permissions:
       id-token: write
-      
     steps:
       - uses: actions/download-artifact@v4
         with:
