@@ -2,6 +2,8 @@ name: Create and Publish wheel
 
 on: 
   push:
+      tags:
+        - "v*" # Push to every tag containing version number
 
 jobs:
   # Build Ubuntu, Windows and macOS wheels 
@@ -50,7 +52,6 @@ jobs:
     environment: publish
     permissions:
       id-token: write
-      
     steps:
       - uses: actions/download-artifact@v4
         with:
